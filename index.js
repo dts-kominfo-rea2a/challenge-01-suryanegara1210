@@ -25,10 +25,10 @@ const firstUser = {
     gender : 'Female',
     age : 17,
     email : 'monica@dingdong.com',
-    favoriteColor : ['Yellow', 'Pink', 'White', 'Purple'],
+    favoriteColor : ["Yellow", "Pink", "White", "Purple"],
     isHavePet : 'Yes',
     education : sekolah1,
-    favoriteRestaurant : ['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi']
+    favoriteRestaurant : ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"]
     };
 
 //Second user data
@@ -60,10 +60,10 @@ const secondUser = {
     gender : 'Male',
     age : 23,
     email : 'wendy@dingdong.com',
-    favoriteColor : ['Blue', 'Black', 'Grey'],
+    favoriteColor : ["Blue", "Black", "Grey"],
     isHavePet : 'No',
     education : sekolah2,
-    favoriteRestaurant : ['Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy']
+    favoriteRestaurant : ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
