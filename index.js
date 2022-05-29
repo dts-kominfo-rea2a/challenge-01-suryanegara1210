@@ -19,16 +19,20 @@ sekolah1.add({
     name : 'SMA 03',
     city : 'Tangerang',
 })
+const arrColorMonica = ["Yellow", "Pink", "White", "Purple"];
+const arrRestoMonica = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"]; 
+let setColorMonica = new Set(arrColorMonica);
+let setRestoMonica = new Set(arrRestoMonica);
 
 const firstUser = {
     name : 'Monica',
     gender : 'Female',
     age : 17,
     email : 'monica@dingdong.com',
-    favoriteColor : ["Yellow", "Pink", "White", "Purple"],
+    favoriteColor : [...setColorMonica],
     isHavePet : 'Yes',
     education : sekolah1,
-    favoriteRestaurant : ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"]
+    favoriteRestaurant : [...setRestoMonica]
     };
 
 //Second user data
@@ -55,15 +59,21 @@ sekolah2.add({
   graduate : 2020
 })
 
+const arrColorWendy = ["Blue", "Black", "Grey"];
+const arrRestoWendy = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]; 
+
+let setColorWendy = new Set(arrColorWendy);
+let setRestoWendy = new Set(arrRestoWendy);
+
 const secondUser = {
     name : 'Wendy',
     gender : 'Male',
     age : 23,
     email : 'wendy@dingdong.com',
-    favoriteColor : ["Blue", "Black", "Grey"],
+    favoriteColor : [...setColorWendy],
     isHavePet : 'No',
     education : sekolah2,
-    favoriteRestaurant : ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]
+    favoriteRestaurant : [...setRestoWendy]
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
