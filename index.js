@@ -21,7 +21,7 @@ sekolah1.add({
 })
 
 const firstUser = {
-    nama : 'Monica',
+    name : 'Monica',
     gender : 'Female',
     age : 17,
     email : 'monica@dingdong.com',
@@ -56,7 +56,7 @@ sekolah2.add({
 })
 
 const secondUser = {
-    nama : 'Wendy',
+    name : 'Wendy',
     gender : 'Male',
     age : 23,
     email : 'wendy@dingdong.com',
